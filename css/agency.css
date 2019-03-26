@@ -142,8 +142,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+/*Aqui é onde fica a cor do navbar quando retraido*/
 #mainNav {
-  background-color: #212529;
+  /*background-color: #212529;*/
+  background-color: #e9ecef;
 }
 
 #mainNav .navbar-toggler {
@@ -207,6 +209,7 @@ img::-moz-selection {
     padding-bottom: 0;
     /*background-color: #2b9ed9;*/
     background-color: #212529;
+    background-color: #e9ecef;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;

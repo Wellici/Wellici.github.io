@@ -36,7 +36,7 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      
+
       <a href="#" class="nav-link js-scroll-trigger">
         <img src="https://uploaddeimagens.com.br/images/001/972/421/original/Logo_GsPak_Americas-01.png?1553025531" alt="" id="img-nav">
       </a>
@@ -44,13 +44,13 @@
       <div class="collapse navbar-collapse navbar-light" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Por que a GS PAK?</a>
+            <a class="nav-link js-scroll-trigger" href="#services">Por que a GsPAK?</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Sobre a GS PAK</a>
+            <a class="nav-link js-scroll-trigger" href="#about">Sobre a GsPAK</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#team">Sustentabilidade</a>
@@ -124,7 +124,7 @@
     <div class="container">
       <div class="row align-items-stars">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Por que a Gs Pak Américas?</h2>
+          <h2 class="section-heading">Por que a GsPak Americas?</h2>
           <h3 class="section-subheading text-muted">GS Pak Américas, é uma empresa com amplo domínio na tecnologia em equipamentos de envase asséptico, equipamentos de processamento e preparação de produtos, projetos turnkey dentre outros.
               Presente no setor há mais de três décadas com compromisso, confiabilidade e credibilidade em seus projetos.
               Esse compromisso é motivado pela paixão, qualidade e tecnologia em todos os níveis de nossas operações, inspiradas na satisfação de nossos clientes.</h3>
@@ -142,7 +142,7 @@
             <!--<i class="fas fa-laptop fa-stack-1x fa-inverse"></i>-->
             </a>
           </span>
-          <h4 class="service-heading">Industria</h4>
+          <h4 class="service-heading">Indústria</h4>
           <!--
           <p class="text-muted">Possui 600 colaboradores diretos, com um parque fabril e centros de usinagem,
              caldeiraria e montagem, com capacidade para produzir mais de 200 linhas de envase asséptico anualmente.</p>
@@ -310,7 +310,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Sobre a GS PAK Américas</h2>
+          <h2 class="section-heading">Sobre a GsPAK Americas</h2>
           <br>
           <br>
         </div>
@@ -325,7 +325,7 @@
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <!--<h4>2009-2011</h4>-->
-                  <h4 class="subheading">Prémios conquistados</h4>
+                  <h4 class="subheading">Prêmios conquistados</h4>
                 </div>
                 <div class="timeline-body">
                 <ul>
@@ -364,7 +364,7 @@
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>Certificados da GS PAK Américas</h4>
+                  <h4>Certificados da GsPAK Americas</h4>
                   <!--<h4 class="subheading">An Agency is Born</h4>-->
                 </div>
                 <div class="timeline-body">
@@ -401,13 +401,13 @@
   <!-- Team -->
   <section class="bg-light" id="team">
     <div class="container">
-        <p>A GS Pak Américas possui em sua cultura organizacional respeito ao meio ambiente,
+        <p>A GsPak Americas possui em sua cultura organizacional respeito ao meio ambiente,
         para tanto a empresa adotará em sua fábrica de Alagoas, todas as normas e
         procedimentos de preservação da natureza, com sustentabilidade em suas atividades,
         utilizando matéria prima de fontes renováveis.</p>
         <p>Além disso, o investimento que será realizado no Estado, não vai alterar os padrões e
         boas práticas de preservação, já existentes.</p>
-        <p>GS Pak Américas já providenciou o pedido para procedimento de licença ambiental
+        <p>A GsPak Américas já providenciou o pedido para procedimento de licença ambiental
         para operação junto ao IMA - Instituto do Meio Ambiente do Estado de Alagoas.</p>
       
         </div>
@@ -455,11 +455,12 @@
 
  <section id="contact">
    <div class="text-center">
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+    <button id="entrar-contato" type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
         Entre em contato
       </button>
     </div>
-    <form action="https://formspree.io/contato@gspakamericas.com" method="POST">
+    <!--action="https://formspree.io/contato@gspakamericas.com"-->
+    <form action="https://formspree.io/welliciaraujo2017@gmail.com" method="POST">
       
       <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-scrollable" role="document">
@@ -506,7 +507,10 @@
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-            <button type="submit" class="btn btn-primary" id="btn-enviar-form">Enviar</button>
+            <input type="submit" class="btn btn-primary" id="btn-enviar-form" disabled value="Enviar">
+            <!--
+              <button type="submit" class="btn btn-primary" id="btn-enviar-form" disabled="disabled">Enviar</button>
+            -->
           </div>
         </div>
       </div>
@@ -562,6 +566,7 @@
             </li>
           </ul>
         </div>
+        <br><br><br>
       </div>
     </div>
   </footer>
