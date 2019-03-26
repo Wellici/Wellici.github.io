@@ -11,11 +11,13 @@ btn_contato.addEventListener('click', function(event){
     setInterval(() => {
         if(verificaCampos(inputs)){
             enviar.removeAttribute('disabled');
+            /*
             enviar.addEventListener('click', () => {
 
                 //limpaForms(inputs);
                 //textarea.value = '';
             });
+            */
         }   
     }, 1000);
 });
